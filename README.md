@@ -12,7 +12,7 @@ Goal: build manual web security skills — not AI-assisted guessing. Every write
 
 ## Format per write-up
 Each lab gets a `.md` file with:
-1. **What the vulnerability is** (in plain English)
+1. **What the vulnerability is**
 2. **How I found it** (the recon / manual testing step)
 3. **The payload** (what I sent)
 4. **Why it works** (mechanism — no hand-waving)
