@@ -19,4 +19,4 @@ it worked because the -- is a comment indicator which makes the rest of the quer
 
 ## How to fix it
 The developer should use Parameterized Queries means the database what the query is first, and then you hand it the user input separately as a piece of data. This separates the SQL code from the user data, so the database treats user input strictly as data and never as executable code.
-query = "SELECT * FROM products WHERE category = ?" that means user input into ? which suggest even if anyone put '-- or 1=1-- the databse treat the single name or sting as cateogry name and never trate it as sql commands.
+query = "SELECT * FROM products WHERE category = ?" that means user input into ? which suggest even if anyone put '-- or 1=1-- the databse treat the single name or sting as cateogry name and never treats it as sql commands.
